@@ -65,9 +65,9 @@ def handle_command():
     elif 'who created you' in command:
         response = 'I was created by Himanshu Chandola.'
     elif 'introduce yourself' in command or 'who are you' in command:
-        response = 'I am Panda, a virtual assistant created by Himanshu Chandola using Python. I am currently in development stage.'
-    elif 'who is himanshu' in command:
-        response = 'Himanshu Chandola is a student from Graphic Era. He created me as a practice project.'
+        response = 'I am Panda, a virtual assistant created by Abarna J, Karthikeyan M and Kisanth R using Python. I am currently in development stage.'
+    elif 'who are they' in command:
+        response = 'They are the student from KRCT. they created me as a practice project.'
     elif 'thank you' in command or 'thanks' in command:
         response = 'You are welcome! Anything else?'
     elif 'roll' in command and 'dice' in command:
